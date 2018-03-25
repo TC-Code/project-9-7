@@ -83,20 +83,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     var winnerIs = "player";
 
-    if (playerPick == computerPick) {
-      winnerIs = "noone"; // remis
+    if (playerPick === computerPick) {
+      winnerIs = "noone"; // DRAW
     } else if (
-      (computerPick == "rock" && playerPick == "scissors") ||
-      (computerPick == "scissors" && playerPick == "paper") ||
-      (computerPick == "paper" && playerPick == "rock")
+      (computerPick === "rock" && playerPick === "scissors") ||
+      (computerPick === "scissors" && playerPick === "paper") ||
+      (computerPick === "paper" && playerPick === "rock")
     ) {
       winnerIs = "computer";
     }
 
-    if (winnerIs == "player") {
+    if (winnerIs === "player") {
       playerResultElem.innerHTML = "Win!";
       player.score++;
-    } else if (winnerIs == "computer") {
+    } else if (winnerIs === "computer") {
       computerResultElem.innerHTML = "Win!";
       computer.score++;
     }
