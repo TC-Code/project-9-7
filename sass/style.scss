@@ -1,0 +1,73 @@
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: 0 none;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+#js-welcomeLabel {
+  font-weight: 700;
+}
+
+.game-name {
+  margin-bottom: 50px;
+}
+
+#js-winner {
+  margin: 50px auto;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  background-color: #5fc0dd;
+  border-radius: 150px;
+  max-width: 400px;
+  box-shadow: 0 6px 10px #0e718f;
+}
+
+.btn-default {
+  margin: 50px auto;
+  box-shadow: 0 3px 15px rgb(100, 95, 95);
+  font-weight: 700;
+}
+
+.fa-hand-rock-o,
+.fa-hand-paper-o,
+.fa-hand-scissors-o {
+  font-size: 32px;
+}
+
+.fa-hand-rock-o:hover {
+  color: #000;
+}
+
+.fa-hand-paper-o:hover {
+  color: #5fc0dd;
+}
+
+.fa-hand-scissors-o:hover {
+  color: #d75452;
+}
+
+.button-rock,
+.button-paper,
+.button-scissors {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #777;
+  padding: 10px;
+}
+
+.btn .badge {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.icons {
+  margin-bottom: 50px;
+}
